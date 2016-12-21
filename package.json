@@ -1,13 +1,13 @@
 {
-  "name": "@wave/net",
+  "name": "@wave/ai",
   "version": "1.0.0",
-  "description": "Wave Artifical Network",
+  "description": "Wave Artifical Intelligence",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
     "start": "npm run build && electron ./"
   },
-  "author": "Paul Gschwendtner",
+  "author": "Paul Gschwendtner <paulgschwendtner@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@angular/common": "^2.4.0",
