@@ -1,0 +1,14 @@
+@wave-background-color: #424242;
+
+body, html {
+  margin: 0;
+  background: @wave-background-color;
+}
+
+wave-app > md-toolbar {
+  -webkit-app-region: drag;
+
+  md-toolbar-row * {
+    -webkit-app-region: no-drag;
+  }
+}

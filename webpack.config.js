@@ -7,6 +7,8 @@ module.exports = {
     main: "./src/main"
   },
 
+  target: 'electron',
+
   output: {
     path: __dirname + "/dist",
     filename: "[name].js"

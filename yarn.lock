@@ -14,6 +14,10 @@
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@angular/core/-/core-2.4.0.tgz#7da68c85c6f2d76e5c391daefd3eedf545305bb5"
 
+"@angular/flex-layout@https://github.com/angular/flex-layout-builds.git":
+  version "1.0.0-alpha.12"
+  resolved "https://github.com/angular/flex-layout-builds.git#312491c67c041bee1d8f53bdb95b6f7611dbe3b2"
+
 "@angular/forms@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-2.4.0.tgz#d0daf261d00927a3c09355ce21f8e6c118253cc3"
@@ -22,9 +26,9 @@
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@angular/http/-/http-2.4.0.tgz#21083c631f95b73a9e472d74170dfd70395be91f"
 
-"@angular/material@git+https://github.com/angular/material2-builds.git":
-  version "2.0.0-alpha.11-2"
-  resolved "git+https://github.com/angular/material2-builds.git#17decf358ba994c17532d8fe9776eb019b0d6d0d"
+"@angular/material@^2.0.0-alpha.11-3":
+  version "2.0.0-alpha.11-3"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-2.0.0-alpha.11-3.tgz#71780b1bcf07777d5bcef43330ab7695bb2da549"
   dependencies:
     "@types/hammerjs" "^2.0.30"
 
