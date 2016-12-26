@@ -15,20 +15,21 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['', '.js', '.ts']
+    extensions: ['.js', '.ts']
   },
 
   module: {
     loaders: [
       { test: /\.ts$/,   loader: 'ts-loader!angular2-template-loader', exclude: /node_modules/ },
       { test: /\.html$/, loader: 'html-loader' },
-      { test: /\.less$/, loader: "raw!less" },
-      { test: /\.css$/,  loader: 'style!css' },
+      { test: /\.less$/, loader: "raw-loader!less-loader" },
+      { test: /\.css$/,  loader: 'style-loader!css-loader' },
       { test: /\.jpg$/,  loader: "file-loader" },
       { test: /\.svg$/,  loader: "url-loader?mimetype=image/svg+xml" },
       { test: /\.png$/,  loader: "url-loader?mimetype=image/png" },
-      { test: /\.json$/, loader: 'json' }
-    ]
+      { test: /\.json$/, loader: 'json-loader' }
+    ],
+
   },
 
   plugins: [

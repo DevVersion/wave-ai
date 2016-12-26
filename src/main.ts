@@ -3,7 +3,7 @@ import 'core-js/es7';
 import 'zone.js';
 
 import '@angular/material/core/theming/prebuilt/purple-green.css';
-import 'style!./main.less'
+import 'style-loader!./main.less'
 
 import {NgModule} from '@angular/core';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
