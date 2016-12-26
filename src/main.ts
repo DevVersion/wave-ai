@@ -11,8 +11,6 @@ import {BrowserModule} from '@angular/platform-browser';
 import {CommonModule} from '@angular/common';
 import {MaterialModule} from '@angular/material';
 import {RootComponent} from './components/root/root.component';
-import {FlexLayoutModule} from '@angular/flex-layout';
-
 
 @NgModule({
   imports: [
@@ -21,7 +19,6 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 
     /* Custom Modules */
     MaterialModule.forRoot(),
-    FlexLayoutModule.forRoot()
   ],
   declarations: [RootComponent],
   bootstrap: [RootComponent]
